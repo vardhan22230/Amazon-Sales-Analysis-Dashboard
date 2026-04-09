@@ -1,59 +1,71 @@
-📊 Amazon Sales Analysis Dashboard
-An advanced-level Power BI dashboard to analyze sales performance of Amazon products, including YTD/QTD sales, product category trends, and top-performing items by sales and reviews.
+# 📊 Amazon Sales Analysis Dashboard
 
-[https://github.com/vardhan22230/Amazon-Sales-Analysis-Dashboard/blob/main/AMAZON%20SALES%20PRODUCTS.pbix]
+An end-to-end data analytics project analyzing Amazon product sales 
+performance using SQL, Power BI, and Excel — covering YTD/QTD metrics, 
+category trends, and top-performing products.
 
-🔍 Project Overview
-This project aims to help business and data analysts uncover key insights from Amazon's sales data. The dashboard provides a comprehensive view of sales performance, enabling data-driven decisions on inventory, marketing, and product strategy.
+![Dashboard Preview](Dashboard_Preview.png)
 
-It includes:
+---
 
-Year-To-Date (YTD) and Quarter-To-Date (QTD) Sales Metrics
+## 🛠️ Tools Used
+| Tool | Purpose |
+|------|---------|
+| Excel | Data exploration & initial cleaning |
+| SQL (SSMS) | Business queries & data extraction |
+| Power BI | Interactive dashboard & DAX measures |
 
-Sales Trends by Month and Week
+---
 
-Performance Breakdown by Product Category
+## 🔍 Project Overview
+This project analyzes Amazon product sales data to help business teams 
+make data-driven decisions on inventory planning, marketing spend, 
+and product strategy.
 
-Top 5 Products by YTD Sales and Reviews
+**Dataset:** 27,750+ product records across 5 categories  
+**Total Revenue Analyzed:** $2.18M YTD | $811K QTD  
+**Total Reviews Analyzed:** 19.42M
 
-Interactive Product Category Filter
+---
 
-📌 Key Features
-Dynamic KPIs for Total Sales, Products Sold, and Reviews.
+## ❓ Key Business Questions Answered
+1. Which product categories drive the most revenue?
+2. What are the monthly and weekly sales trends?
+3. Which products perform best by sales vs. by reviews?
+4. How does QTD performance compare to YTD targets?
+5. Which categories are underperforming relative to their review volume?
 
-Line & Bar Charts for monthly and weekly trend analysis.
+---
 
-Product-Level Insights on the top 5 products by sales and reviews.
+## 💡 Key Insights
+- **Men Shoes** dominates with **43.18% of total YTD sales** ($9.4M)
+- Sales peak sharply in **Q4 (Oct–Dec)** — clear seasonal demand pattern
+- **Vince Camuto** leads in reviews (96K) but ranks 5th in revenue — 
+  signals high customer engagement with low conversion to sales
+- **Mobile & Accessories** contributes only 1.80% of sales despite 
+  being a high-volume category — possible pricing or visibility issue
+- QTD sales of $811K suggest Q4 is on track to be the strongest quarter
 
-Interactive slicers for filtering data by product category and time period.
+---
 
-🗂️ File Structure
-📁 Amazon-Sales-Analysis-Dashboard/
-├── Amazon_Sales_Analysis.pbix       → Power BI dashboard file
-├── datasets/
-│   └── amazon_sales_data.csv        → The cleaned dataset used for analysis
-├── screenshots/
-│   └── dashboard_preview.png        → Dashboard preview image
-└── README.md                        → Project documentation
-💡 Tools Used
-Power BI (DAX, Power Query)
+## 💼 Business Recommendations
+- **Inventory:** Stock Men Shoes category 30–40% higher in September 
+  ahead of Q4 peak season to avoid stockouts
+- **Marketing:** Invest in Vince Camuto paid campaigns — 96K reviews 
+  prove customer trust; targeted ads could convert engagement into sales
+- **Pricing review:** Mobile & Accessories category needs a pricing or 
+  visibility audit — low sales despite being a high-demand category 
+  suggests a positioning problem
+- **Category expansion:** Men Clothes at 22.62% is a strong #2 — 
+  expanding SKUs here could capture additional revenue with low risk
 
-Excel/CSV for raw data
+---
 
-GitHub for version control and portfolio hosting
+## 📁 File Structure
 
-🧠 Key Insights
-October–December had the highest sales performance, indicating a peak season.
+---
 
-Men Shoes contributed 43.18% of total sales, making it the highest-performing category.
-
-Vince Camuto products received the highest number of reviews (96K), highlighting a highly engaged customer base.
-
-🔗 Connect With Me
-Feel free to connect or reach out for more information:
-
-📧 Email: [saivardhan3001@gmail.com]
-
-💼 LinkedIn: [ linkedin.com/in/saivardhan22]
-
-📂 More Projects: [https://github.com/vardhan22230]
+## 🔗 Connect With Me
+📧 Email: saivardhan3001@gmail.com  
+💼 LinkedIn: linkedin.com/in/saivardhan22  
+📂 GitHub: github.com/vardhan22230
